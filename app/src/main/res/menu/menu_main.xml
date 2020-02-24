@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.linetest.MainActivity">
+    <group android:id="@+id/menu_group_list"
+        android:visible="false">
+
+    </group>
+    <group android:id="@+id/menu_group_view"
+        android:visible="false">
+        <item
+            android:title="@string/menu_delete"
+            android:id="@+id/menu_delete_memo"
+            android:orderInCategory="10"
+            android:icon="@drawable/ic_delete_black_24dp"
+            app:showAsAction="always"/>
+    </group>
+    <group android:id="@+id/menu_group_write"
+        android:visible="false">
+        <item android:title="@string/menu_add_image"
+            android:icon="@drawable/ic_add_to_photos_black_24dp"
+            android:orderInCategory="9"
+            app:showAsAction="always">
+            <menu>
+                <item android:title="@string/menu_add_image_gallery"
+                    android:id="@+id/menu_add_image_gallery"/>
+                <item android:title="@string/menu_add_image_camera"
+                    android:id="@+id/menu_add_image_camera"/>
+                <item android:title="@string/menu_add_image_url"
+                    android:id="@+id/menu_add_image_url"/>
+            </menu>
+        </item>
+        <item
+            android:title="@string/menu_delete"
+            android:id="@id/menu_delete_memo"
+            android:orderInCategory="10"
+            android:icon="@drawable/ic_delete_black_24dp"
+            app:showAsAction="always"/>
+    </group>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings"
+        app:showAsAction="never" />
+</menu>

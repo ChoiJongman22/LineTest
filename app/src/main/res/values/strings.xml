@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LineTest</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_add_image">Add image</string>
+
+    <string name="menu_add_image_gallery">갤러리</string>
+    <string name="menu_add_image_camera">카메라</string>
+    <string name="menu_add_image_url">URL</string>
+
+    <string name="memo">memo</string>
+    <string-array name="image_pick_from">
+        <item>갤러리</item>
+        <item>카메라</item>
+        <item>URL</item>
+    </string-array>
+
+    <string name="imgs_path">imgs</string>
+    <string name="img_thumbs_path">img_thumbs</string>
+
+    <string name="ok">네</string>
+    <string name="cancel">아니요</string>
+</resources>

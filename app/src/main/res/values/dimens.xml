@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="write_img_height">160dp</dimen>
+    <dimen name="list_img_width">80dp</dimen>
+
+    <dimen name="title_text">20sp</dimen>
+    <dimen name="content_text">16sp</dimen>
+    <dimen name="date_text">12sp</dimen>
+</resources>
